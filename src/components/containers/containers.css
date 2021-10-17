@@ -1,0 +1,34 @@
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+}
+
+.home-bg {
+  background-color: var(--home-bg-color);
+}
+
+.flex {
+  display: flex;
+}
+
+.center-all {
+  justify-content: center;
+  align-items: center;
+}
+
+.center-spaced-around {
+  justify-content: space-around;
+  align-items: center;
+}
+.dir-col {
+  flex-direction: column;
+}
+
+.full {
+  width: 100%;
+  height: 100%;
+}
+
+.padding-medium {
+  padding: 24px;
+}

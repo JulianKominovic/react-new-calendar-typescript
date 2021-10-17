@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+}
+
+.h-80 {
+  height: 80%;
+}
+
+.calendar-grid {
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 0.4fr repeat(6, 1fr);
+  gap: 4px;
+  background-color: rgba(255, 255, 255, 0.404);
+  border: 1px solid #aaaaaa37;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(6px);
+  padding: 20px;
+  border-radius: 10px;
+}

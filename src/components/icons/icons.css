@@ -1,0 +1,8 @@
+.big-icon {
+  color: var(--font-color);
+  font-size: clamp(10px, 30vw, 160px);
+}
+
+.small-icon {
+  color: var(--font-color);
+}

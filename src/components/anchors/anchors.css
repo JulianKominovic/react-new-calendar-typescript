@@ -1,0 +1,8 @@
+a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.font-large {
+  font-size: 36px;
+}
